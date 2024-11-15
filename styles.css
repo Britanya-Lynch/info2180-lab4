@@ -1,0 +1,99 @@
+body {
+    background-image:url('Avengers.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.container {
+    background-color: lightseagreen;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+
+h4 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+
+.search-container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+#searchInput {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.btn {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.btn:hover {
+    background-color: limegreen;
+}
+
+
+.result-container {
+    background-color: lightgray;
+    color: black;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.result h1 {
+    color: black;
+}
+
+
+hr {
+    background-color: black;
+    height: 3px;
+}
+
+.searchList {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.searchList li {
+    padding: 5px 0;
+    font-size: 16px;
+    color: black;
+}
